@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Convert to Win32 (navigator)",
+  "description": "Overrides navigator.platform value to win32",
+  "version": "0.0.1",
+  "permissions": ["tabs"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [{
+    "world": "MAIN",
+    "js": ["script.js"],
+    "matches": ["<all_urls>"],
+    "run_at": "document_start"
+  }]
+}

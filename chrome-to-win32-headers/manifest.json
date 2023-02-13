@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Convert to Win32 (headers)",
+  "description": "Overrides the UserAgent header to win32",
+  "version": "0.0.1",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
