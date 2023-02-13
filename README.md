@@ -1,5 +1,5 @@
 # What is this?
-A WebExtension to make Chrome appear like it's running on Windows
+Two WebExtensions to make Chrome appear like it's running on Windows.
 
 ## Why?
 Because it seemed to me like Microsoft O365 was logging me out after just
